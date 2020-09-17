@@ -52,9 +52,9 @@ class CassandraDataCollector extends DataCollector
      * Collect the data
      * @param Request    $request   The request object
      * @param Response   $response  The response object
-     * @param \Exception $exception An exception
+     * @param \Throwable $throwable An exception
      */
-    public function collect(Request $request, Response $response, \Exception $exception = null)
+    public function collect(Request $request, Response $response, \Throwable $throwable = null)
     {
     }
 
